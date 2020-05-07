@@ -12,6 +12,7 @@ def count_empty_strings(array)
    array.count { |str|
    str.is_a? String
    str = ""
+   str = ''
    
    }
 end
