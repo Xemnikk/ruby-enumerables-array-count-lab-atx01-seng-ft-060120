@@ -11,7 +11,6 @@ def count_empty_strings(array)
    # element 
    array.count { |str|
    
-   str.empty?
    
    }
 end
